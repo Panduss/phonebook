@@ -18,7 +18,7 @@ export default class Contact extends BaseEntity {
     lastName: string
 
     @IsEmail()
-    @Column('text', {nullable: false})
+    @Column('text', {nullable: true})
     email: string
 
     @OneToOne(() => Phone, {cascade: true, onDelete: "CASCADE", onUpdate: "CASCADE", nullable: false})

@@ -32,7 +32,7 @@ The code I'll be using is nothing new, you can find very similar code to it in m
 # API
 ```
 POST /contacts
-addContact: (firstNames: string, lastName: string, phone: Phone, address?: Address) => Contact;
+addContact: (firstNames: string, lastName: string, email: string, phone: Phone, address?: Address) => Contact;
 
 GET /contacts
 getAllContacts: () => Array<Contact>;
