@@ -11,6 +11,8 @@ The code I'll be using is nothing new, you can find very similar code to it in m
 * Add tests that are supposed to fail (e.g. sending the POST request with mandatory fields missing)
 * Create tests for list, show, edit and delete endpoints
 * Implement list, show, edit and delete endpoints
+* Implement Access control
+* Add sorting and pagination
 
 # Quickstart 🚀
 
