@@ -16,8 +16,8 @@ The code you'll be seeing is nothing new, you can find very similar code to it i
 
 # Quickstart 🚀
 
-* first run npm install <br>
-* first run npm run start <br>
+* npm install <br>
+* npm run start <br>
 
 ### Database 
 (I'll assume that Postgres is installed on your computer already) <br>
