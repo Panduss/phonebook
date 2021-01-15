@@ -4,7 +4,7 @@ A simple API to handle contacts
 
 # Disclaimer
 
-The code you'll be seeing is nothing new, you can find very similar code to it in my github from my days at Codaisseur and Scitodate (the latter isn't here, we it's private repo in gitlab). I'm not sure if this counts as using a boilerplate but just so you know! 
+The code you'll be seeing is nothing new, you can find very similar code to it in my github from my days at Codaisseur and Scitodate (the latter isn't here, they'are private repos in gitlab). I'm not sure if this counts as using a boilerplate but just so you know! 
 
 # If I had more time
 * Fix the issue with the current test
