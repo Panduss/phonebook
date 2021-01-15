@@ -4,6 +4,7 @@
   "description": "A simple API to handle contacts",
   "main": "index.ts",
   "scripts": {
+    "start": "ts-node ./src/server.ts",
     "test": "npm run test"
   },
   "author": "",
