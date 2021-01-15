@@ -28,9 +28,27 @@ The code I'll be using is nothing new, you can find very similar code to it in m
     
   ### TypeORM
   Makes talking with the databse easier and it was made to be used with TypeScript.
-    
+
+# API
+```
+POST /contacts
+addContact: (firstNames: string, lastName: string, phone: Phone, address?: Address) => Contact;
+
+GET /contacts
+getAllContacts: () => Array<Contact>;
+
+GET /contacts/:id
+getOneContact: (id: string) => Array<Contact>;
+
+PUT /contacts/:id
+updateContact: (id: string) => Contact;
+
+DELETE /contacts/:id
+deleteContact: (id: string) => void;
+
+```
 # Models
-      
+
   ```
   Contact = {
     id: string,

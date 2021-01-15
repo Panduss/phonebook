@@ -11,7 +11,7 @@ export default class Contact extends BaseEntity {
 
     @IsString()
     @Column('text', {nullable: false})
-    firstName: string
+    firstNames: string
 
     @IsString()
     @Column('text', {nullable: false})
