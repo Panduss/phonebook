@@ -6,6 +6,12 @@ A simple API to handle contacts
 
 The code I'll be using is nothing new, you can find very similar code to it in my github from my days at Codaisseur and Scitodate. I'm not sure if this counts as using a boilerplate but just so you know! 
 
+# If I had more time
+* Fix the issue with the current test
+* Add tests that are supposed to fail (e.g. sending the POST request with mandatory fields missing)
+* Create tests for list, show, edit and delete endpoints
+* Implement list, show, edit and delete endpoints
+
 # Quickstart 🚀
 
 * first run npm install <br>
