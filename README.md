@@ -4,7 +4,7 @@ A simple API to handle contacts
 
 # Disclaimer
 
-The code I'll be using is nothing new, you can find very similar code to it in my github from my days at Codaisseur. I'm not sure if this counts as using a boilerplate but just so you know! 
+The code I'll be using is nothing new, you can find very similar code to it in my github from my days at Codaisseur and Scitodate. I'm not sure if this counts as using a boilerplate but just so you know! 
 
 # Quickstart 🚀
 
@@ -29,3 +29,32 @@ The code I'll be using is nothing new, you can find very similar code to it in m
   ### TypeORM
   Makes talking with the databse easier and it was made to be used with TypeScript.
     
+# Models
+      
+  ```
+  Contact = {
+    id: string,
+    firstNames: string,
+    lastName: string,
+    email: string,
+    phone: Phone,
+    address: Address
+  }
+
+  Phone = {
+    id: string,
+    mobile: string,
+    home: string,
+    work: string,
+    other: string
+  }
+    
+  Address = {
+    id: string,
+    country: string,
+    zip: string,
+    city: string,
+    street: string,
+    number: string,
+    addition: string
+  }
