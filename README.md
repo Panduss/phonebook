@@ -4,7 +4,7 @@ A simple API to handle contacts
 
 # Disclaimer
 
-  The code I'll be using is nothing new, you can find very similar code to it in my github from my days at Codaisseur. I'm not sure if this counts as using a boilerplate but just so you know! 
+The code I'll be using is nothing new, you can find very similar code to it in my github from my days at Codaisseur and Scitodate. I'm not sure if this counts as using a boilerplate but just so you know! 
 
 # Quickstart 🚀
 
@@ -19,7 +19,7 @@ A simple API to handle contacts
 
   ### TypeScript
   Easier to write and understand, easier to refactor later on, less prone to errors, easier to navigate once the codebase grows.
-    
+   
   ### Express
   Lightweight, well supported, well-loved by developers.
   
@@ -30,6 +30,7 @@ A simple API to handle contacts
   Makes talking with the databse easier and it was made to be used with TypeScript.
     
 # Models
+      
   ```
   Contact = {
     id: string,
@@ -47,7 +48,7 @@ A simple API to handle contacts
     work: string,
     other: string
   }
-
+    
   Address = {
     id: string,
     country: string,
@@ -57,4 +58,3 @@ A simple API to handle contacts
     number: string,
     addition: string
   }
-  ```
